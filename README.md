@@ -5,8 +5,8 @@ This is a UTD dissertation template made for your convenience by Brady C McCary.
 
 # How do I use this?
 
-1. Download the [zip file](https://github.com/bmccary/utd-dissertation-template/archive/master.zip).
-2. Unpack the zip in a reasonable directory on a computer with TeX.
+1. Download the [template](https://github.com/bmccary/utd-dissertation-template/archive/master.zip).
+2. Unpack the template zip on a computer with TeX (I use linux, but MiKTeX on Windows works fine).
 3. Start editing. 
 4. Each file contains comments which describe its usage.
 
