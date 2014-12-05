@@ -1,7 +1,8 @@
 
 # What is this?
 
-This is a UTD dissertation template made for your convenience by Brady C McCary. Feel free to use it according to the terms in the LICENSE file.
+This is a UTD dissertation template. 
+To see how the resulting PDF looks, [click here](http://bmccary.github.io/utd-dissertation-template/utd-paper.pdf). Feel free to use the template according to the terms in the LICENSE file.
 
 # How do I use this?
 
