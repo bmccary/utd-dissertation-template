@@ -5,15 +5,19 @@ This is a UTD dissertation template made for your convenience by Brady C McCary.
 
 # How do I use this?
 
-Download the zip file, unpack it, change in to the directory and start editing. Each file contains comments which describe its usage.
+1. Download the [zip file](https://github.com/bmccary/utd-dissertation-template/archive/master.zip).
+2. Unpack the zip in a reasonable directory on a computer with TeX.
+3. Start editing. 
+4. Each file contains comments which describe its usage.
 
 # Notes
 
-1. These are the exact dimension, spacing and punctuation requirements of the graduate office as of 2012-04-10.
-2. This template requires a recent version of latex. I use pdflatex on a recent linux distribution.
-3. I might be willing to help you, but don't expect me to help you.
-4. I won't help you if you are using anything except pdflatex. 
-5. MiKTeX uses pdflatex, so MiKTeX is OK. However, you MUST make sure you are compling directly to PDF, not to DVI and then converting to PDF.
+1. This template encodes the exact format requirements (page geometries, line spacings, and punctuation) of the graduate office as of 2012-04-10.
+2. This template requires a recent version of TeX. I use PDFLaTeX on a recent linux distribution.
+3. Please inform me if you find errors in the formatting. I intend to keep this template up-to-date with respect to the graduate office's requirements.
+3. If you have a feature request then please contact me. For example, if you need an example of doing X (for some interesting task X) in the template then please let me know.
+4. This template assumes that you are using PDFLaTeX (or something very similar).
+5. MiKTeX uses PDFLaTeX, so MiKTeX is OK. However, you MUST make sure you are compling directly to PDF, not to DVI and then converting to PDF.
  
     > Yes: TeX -> PDF
     >
@@ -21,5 +25,10 @@ Download the zip file, unpack it, change in to the directory and start editing. 
     >
     > No: TeX -> PS -> PDF
 
+  The reason for this requirement is that page geometries (especially margins) get mangled in the intermediate steps.
+
 6. To compile your dissertation in linux, just type make at the command line.
+
+     $ make
+
 7. You will have to study the structure of this template in order to understand it. Sorry, but no one promised you this would be easy.
