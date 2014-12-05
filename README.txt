@@ -13,7 +13,7 @@ as of 2012-04-10.
 latex. I use pdflatex on a recent linux
 distribution.
 
-	{patapon:~/school/research/tex/papers/utd-dissertation-template} pdflatex -version
+	{patapon:~/school/utd-dissertation-template} pdflatex -version
 	pdfTeX using libpoppler 3.141592-1.40.3-2.2 (Web2C 7.5.6)
 	kpathsea version 3.5.6
 	Copyright 2007 Peter Breitenlohner (eTeX)/Han The Thanh (pdfTeX).
