@@ -14,8 +14,12 @@ Download the zip file, unpack it, change in to the directory and start editing. 
 3. I might be willing to help you, but don't expect me to help you.
 4. I won't help you if you are using anything except pdflatex. 
 5. MiKTeX uses pdflatex, so MiKTeX is OK. However, you MUST make sure you are compling directly to PDF, not to DVI and then converting to PDF.
-> Yes: TeX -> PDF
-> No: TeX -> DVI -> PDF
-> No: TeX -> PS -> PDF
+ 
+    > Yes: TeX -> PDF
+    >
+    > No: TeX -> DVI -> PDF
+    >
+    > No: TeX -> PS -> PDF
+
 6. To compile your dissertation in linux, just type make at the command line.
 7. You will have to study the structure of this template in order to understand it. Sorry, but no one promised you this would be easy.
