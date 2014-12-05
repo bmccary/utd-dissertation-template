@@ -32,4 +32,4 @@ To see how the resulting PDF looks, [click here](http://bmccary.github.io/utd-di
 
      $ make
 
-7. You will have to study the structure of this template in order to understand it. Sorry, but no one promised you this would be easy.
+7. You will have to study the structure of this template in order to understand it. Comments in the individual files should help you along your way.
