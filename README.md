@@ -19,17 +19,20 @@ To see how the resulting PDF looks, [click here](http://bmccary.github.io/utd-di
 3. If you have a feature request then please contact me. For example, if you need an example of doing X (for some interesting task X) in the template then please let me know.
 4. This template assumes that you are using PDFLaTeX (or something very similar).
 5. MiKTeX uses PDFLaTeX, so MiKTeX is OK. However, you MUST make sure you are compling directly to PDF, not to DVI and then converting to PDF.
- 
-    > Yes: TeX -> PDF
-    >
-    > No: TeX -> DVI -> PDF
-    >
-    > No: TeX -> PS -> PDF
+
+``` 
+    Yes: TeX -> PDF
+
+    No : TeX -> DVI -> PDF
+    No : TeX -> PS  -> PDF
+``` 
 
   The reason for this requirement is that page geometries (especially margins) get mangled in the intermediate steps.
 
 6. To compile your dissertation in linux, just type make at the command line.
 
+```
      $ make
-
+```
 7. You will have to study the structure of this template in order to understand it. Comments in the individual files should help you along your way.
+
