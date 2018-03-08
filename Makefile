@@ -10,7 +10,7 @@ utd-paper.aux:
 
 #
 # This compilation procedure has enough
-# round of pdflatex and bibtex to get
+# rounds of pdflatex and bibtex to get
 # all cross-references correct.
 #
 
@@ -21,6 +21,8 @@ pdflatex: utd-paper.aux
 	pdflatex utd-paper.tex
 	pdflatex utd-paper.tex
 	chmod a+r utd-paper.pdf
+	mkdir -p docs
+	cp utd-paper.pdf docs
 
 clean:
 	rm -f utd-paper.{aux,bbl,blg,lof,log,lot,pdf,toc,brf,loa,out}
